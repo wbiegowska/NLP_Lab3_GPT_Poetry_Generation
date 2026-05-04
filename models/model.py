@@ -3,11 +3,11 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # --- Hyperparameters ---
-vocab_size = 212   # From the Polish corpus
+vocab_size = 212    #from the Polish corpus
 block_size = 256   # Context length
 n_embd = 256       # Hidden dimension
 n_head = 8         # Number of attention heads
-n_layer = 6        # Number of layers
+n_layer = 3       # Number of layers
 dropout = 0.1      # Dropout rate
 # -----------------------------------------------
 
